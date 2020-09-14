@@ -1,6 +1,6 @@
 # mp3chaptersplit
 splitting podcast mp3 into chapters using their metadata.
-You have one large podcast file with chapter-marks. You want several mp3 files with one cheapter each. this script does that.
+You have one large podcast file with chapter-marks. You want several mp3 files with one chapter each. This script does that.
 
 ## how to use
 1. install ffmpeg, or copy it in the same directory as the script. Install pydub and mutagen via pip
@@ -10,4 +10,6 @@ You have one large podcast file with chapter-marks. You want several mp3 files w
 
 
 ## dependencies
-this python script uses *pydub* with *ffmpeg* to split the mp3 files and *mutagen* to handle metadata. 
+this python script uses 
+* *pydub* with *ffmpeg* to split the mp3 files 
+* *mutagen* to handle metadata. 
